@@ -5,7 +5,7 @@ plot(pes, alçada, pch = 16, cex = 1.3, col = "black", main = "Alçada vs Pes", 
 #linear model
 lm(alçada ~ pes) #veiem que l'intercept és 120.5135 i el pendent 0.5522
 
-#finalmente tracem la linia que millor s'ajusta (linia de regressió) al nostre plot
+#finalment tracem la linia que millor s'ajusta (linia de regressió) al nostre plot
   
 abline(120.5135, 0.5522)
 
